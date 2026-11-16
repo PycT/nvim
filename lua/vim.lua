@@ -10,5 +10,5 @@ vim.opt.guicursor = "a:block-blinkon500-blinkoff500"
 
 vim.g.mapleader = " "
 
-vim.keymap.set("v", "]", ":norm 4i <CR>", {})
-vim.keymap.set("v", "[", ":norm 4dl<CR>", {})
+vim.keymap.set("v", ">", ":norm 4i <CR>", {})
+vim.keymap.set("v", "<", ":norm 4dl<CR>", {})
